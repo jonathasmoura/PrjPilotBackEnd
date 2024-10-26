@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PP.API.Controllers.CategoryController",
+    "Method": "IncludeCategory",
+    "RelativePath": "Category/addcategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryDto",
+        "Type": "PP.API.DTOs.CategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PP.API.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "Category/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
