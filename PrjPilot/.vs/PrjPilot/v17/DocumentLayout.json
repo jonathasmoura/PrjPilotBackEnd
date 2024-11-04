@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\migrations\\20241027043141_initial starter pilot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\migrations\\20241027043141_initial starter pilot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\datacontexts\\pilotcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\datacontexts\\pilotcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,38 +53,51 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 273,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 229,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PP.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PP.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAACsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:01:58.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Program.cs",
               "RelativeDocumentMoniker": "PP.API\\Program.cs",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Program.cs",
               "RelativeToolTip": "PP.API\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T04:49:21.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\Product.cs",
               "RelativeDocumentMoniker": "PP.API\\Models\\Product.cs",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\Product.cs",
               "RelativeToolTip": "PP.API\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T01:25:38.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\Category.cs",
               "RelativeDocumentMoniker": "PP.API\\Models\\Category.cs",
@@ -81,20 +110,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "PP.API\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "PP.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PilotContext.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\DataContexts\\PilotContext.cs",
+              "RelativeDocumentMoniker": "PP.API\\DataContexts\\PilotContext.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\DataContexts\\PilotContext.cs",
+              "RelativeToolTip": "PP.API\\DataContexts\\PilotContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T14:30:47.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T13:06:42.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "20241027043141_Initial Starter Pilot.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Migrations\\20241027043141_Initial Starter Pilot.cs",
+              "RelativeDocumentMoniker": "PP.API\\Migrations\\20241027043141_Initial Starter Pilot.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Migrations\\20241027043141_Initial Starter Pilot.cs",
+              "RelativeToolTip": "PP.API\\Migrations\\20241027043141_Initial Starter Pilot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:31:43.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "PP.API\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "PP.API\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:00:53.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\User.cs",
               "RelativeDocumentMoniker": "PP.API\\Models\\User.cs",
@@ -102,7 +154,25 @@
               "RelativeToolTip": "PP.API\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:25:46.605Z",
+              "WhenOpened": "2024-10-26T01:25:46.605Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 171,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PP.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PP.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:30:47.056Z",
               "EditorCaption": ""
             },
             {
@@ -113,29 +183,22 @@
               "RelativeDocumentMoniker": "PP.API\\appsettings.json",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\appsettings.json",
               "RelativeToolTip": "PP.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-26T01:31:54.605Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 127,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "PP.API\\DTOs\\CategoryDto.cs",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\DTOs\\CategoryDto.cs",
               "RelativeToolTip": "PP.API\\DTOs\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:17:06.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T01:17:06.632Z"
             }
           ]
         }
