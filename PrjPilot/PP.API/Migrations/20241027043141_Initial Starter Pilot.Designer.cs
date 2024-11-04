@@ -11,8 +11,8 @@ using PP.API.DataContexts;
 namespace PP.API.Migrations
 {
     [DbContext(typeof(PilotContext))]
-    [Migration("20241026013535_Initial Starter Connect")]
-    partial class InitialStarterConnect
+    [Migration("20241027043141_Initial Starter Pilot")]
+    partial class InitialStarterPilot
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -50,8 +50,8 @@ namespace PP.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("Description")
-                        .HasColumnType("int");
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
