@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PP.API.DataContexts;
 using PP.API.DTOs;
 using PP.API.Models;
+using PP.API.Repositories.Interfaces;
 
 namespace PP.API.Controllers
 {
@@ -11,27 +12,32 @@ namespace PP.API.Controllers
 	[Route("[controller]")]
 	public class ProductController : ControllerBase
 	{
-		private readonly PilotContext _pilotContext;
+		private readonly IProductRepository _productRepository;
 
-		public ProductController(PilotContext pilotContext)
+		public ProductController(IProductRepository productRepository)
 		{
-			_pilotContext = pilotContext;
+			_productRepository = productRepository;
 		}
 
 		[HttpGet]
 		[Route("products")]
 		public async Task<IActionResult> GetAllProducts()
 		{
-
-
-			var allProducts = await _pilotContext.Products.ToListAsync();
-
-			if (allProducts.Count <= 0)
+			try
 			{
-				return NotFound();
+				var all = await _productRepository.GetAllProducts();
+				if (all.Count() <= 0)
+				{
+					return NotFound();
+				}
+				return Ok(all);
 			}
+			catch (Exception ex)
+			{
 
-			return Ok(allProducts);
+				return StatusCode(StatusCodes.Status500InternalServerError,
+				 "Erro ao recuperar dados do banco de dados" + ex.Message);
+			}
 		}
 
 		[HttpGet]
@@ -40,73 +46,90 @@ namespace PP.API.Controllers
 		{
 			try
 			{
-				var product = await _pilotContext.Products.FirstOrDefaultAsync(x => x.Id == id);
-				if (product == null)
+				var result = await _productRepository.GetProduct(id);
+
+				if (result == null)
 				{
 					return NotFound(new { message = $"Não foi possível localizar produto com o código {id}." });
 				}
-				return Ok(product);
+
+				return Ok(result);
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(500, "Internal server error" + ex);
+				return StatusCode(StatusCodes.Status500InternalServerError,
+					"Erro ao recuperar dados do banco de dados" + ex);
 			}
 		}
 
 		[HttpPost]
 		[Route("addproduct")]
-		public async Task<IActionResult> IncludeCategory([FromBody] ProductDto productDto)
+		public async Task<IActionResult> IncludeProduct([FromBody] ProductDto productDto)
 		{
-			if (productDto == null)
+
+			try
 			{
-				return BadRequest();
+				if (productDto == null)
+				{
+					return BadRequest();
+				}
+
+				var productCreated = await _productRepository.AddProduct(productDto);
+
+				return CreatedAtAction(nameof(GetProductById), new { id = productCreated.Id }, productCreated);
 			}
-
-			var obj = new Product
+			catch (Exception ex)
 			{
-				Id = productDto.Id,
-				Name = productDto.Name,
-				Description = productDto.Description,
-				Price = productDto.Price,
-				Quantity = productDto.Quantity
-			};
 
-			await _pilotContext.Products.AddAsync(obj);
-			await _pilotContext.SaveChangesAsync();
-
-			return Ok(obj);
+				return StatusCode(StatusCodes.Status500InternalServerError,
+				"Erro ao criar novo registro de produto" + ex);
+			}
 		}
 
 		[HttpPut]
 		[Route("edit/{id}")]
-		public async Task<ActionResult<ProductDto>> UpdateProduct(int id, ProductDto productDto)
+		public async Task<ActionResult<Product>> UpdateProduct(int id, ProductDto productDto)
 		{
 			try
 			{
 				if (id != productDto.Id)
 					return BadRequest("Código de produtos, não são compatíveis!");
 
-				var productToEdit = await _pilotContext.Products.Where(x => x.Id == id).FirstOrDefaultAsync();
-				if (productToEdit == null)
-				{
+				var productToUpdate = await _productRepository.GetProduct(id);
+
+				if (productToUpdate == null)
 					return NotFound($"Não foi possível localizar produto de código = {id} em nossa base de dados.");
 
+				return await _productRepository.UpdateProduct(productDto);
+
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao atualizar registro!" + ex);
+			}
+		}
+
+		[HttpDelete("{id:int}")]
+		public async Task<ActionResult<ProductDto>> DeleteProduct(int id)
+		{
+			try
+			{
+				var productToDelete = await _productRepository.GetProduct(id);
+				if(productToDelete == null)
+				{
+					return NotFound($"Produto com Id = {id} não encontrado");
 				}
 
-				productToEdit.Name = productDto.Name;
-				productToEdit.Description = productDto.Description;
-				productToEdit.Price = productDto.Price;
-				productToEdit.Quantity = productDto.Quantity;
-
-				_pilotContext.Entry(productToEdit).State = EntityState.Modified;
-				await _pilotContext.SaveChangesAsync();
-
-				return productDto;
+				await _productRepository.DeleteProduct(id);
+				return Ok("Produto Excluído com Sucesso");
 			}
 			catch (Exception)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao atualizar registro!");
+
+				return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao excluir dados");
 			}
+
+
 		}
 	}
 }

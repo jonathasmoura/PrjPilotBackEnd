@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "PP.API.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "Category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PP.API.DTOs.CategoryDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PP.API.Controllers.CategoryController",
     "Method": "IncludeCategory",
     "RelativePath": "Category/addcategory",
     "HttpMethod": "POST",
@@ -17,7 +43,7 @@
   },
   {
     "ContainingType": "PP.API.Controllers.CategoryController",
-    "Method": "GetAllCategories",
+    "Method": "GetAllProducts",
     "RelativePath": "Category/categories",
     "HttpMethod": "GET",
     "IsController": true,
@@ -26,8 +52,81 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PP.API.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "Category/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoryDto",
+        "Type": "PP.API.DTOs.CategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PP.API.Models.Category",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PP.API.Controllers.CategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "Category/getby/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PP.API.Controllers.ProductController",
-    "Method": "IncludeCategory",
+    "Method": "DeleteProduct",
+    "RelativePath": "Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PP.API.DTOs.ProductDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PP.API.Controllers.ProductController",
+    "Method": "IncludeProduct",
     "RelativePath": "Product/addproduct",
     "HttpMethod": "POST",
     "IsController": true,
@@ -62,7 +161,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "PP.API.DTOs.ProductDto",
+        "Type": "PP.API.Models.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
