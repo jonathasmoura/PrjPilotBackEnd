@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\implements\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\implements\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\modelbase\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\modelbase\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\implements\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\implements\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\implements\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,8 +39,24 @@
       "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\implements\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\implements\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\implements\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\implements\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\models\\modelbase\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\models\\modelbase\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|c:\\workspacebackend\\prjpilotbackend\\prjpilot\\pp.api\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A270720-D849-4BBB-8099-16F39C21384E}|PP.API\\PP.API.csproj|solutionrelative:pp.api\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,33 +65,33 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 180,
+          "DockedWidth": 215,
           "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "PP.API\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "PP.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAYwIUAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T02:36:19.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
-              "RelativeToolTip": "PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "PP.API\\Repositories\\Implements\\RepositoryBase.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\RepositoryBase.cs",
+              "RelativeToolTip": "PP.API\\Repositories\\Implements\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:22:03.927Z",
+              "WhenOpened": "2024-11-17T00:13:03.711Z",
               "EditorCaption": ""
             },
             {
@@ -78,81 +102,151 @@
               "RelativeDocumentMoniker": "PP.API\\appsettings.json",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\appsettings.json",
               "RelativeToolTip": "PP.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-07T02:42:49.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "PP.API\\Repositories\\Implements\\CategoryRepository.cs",
-              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\CategoryRepository.cs",
-              "RelativeToolTip": "PP.API\\Repositories\\Implements\\CategoryRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAIAwwEAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T00:34:09.829Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 183,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\ProductRepository.cs",
               "RelativeDocumentMoniker": "PP.API\\Repositories\\Implements\\ProductRepository.cs",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\ProductRepository.cs",
               "RelativeToolTip": "PP.API\\Repositories\\Implements\\ProductRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBIAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T00:43:05.683Z",
+              "WhenOpened": "2024-11-16T06:04:51.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "PP.API\\Repositories\\Implements\\UnitOfWork.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\UnitOfWork.cs",
+              "RelativeToolTip": "PP.API\\Repositories\\Implements\\UnitOfWork.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T23:46:03.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\ModelBase\\EntityBase.cs",
+              "RelativeDocumentMoniker": "PP.API\\Models\\ModelBase\\EntityBase.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\ModelBase\\EntityBase.cs",
+              "RelativeToolTip": "PP.API\\Models\\ModelBase\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T02:16:24.837Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\ModelBase\\Result.cs",
+              "RelativeDocumentMoniker": "PP.API\\Models\\ModelBase\\Result.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Models\\ModelBase\\Result.cs",
+              "RelativeToolTip": "PP.API\\Models\\ModelBase\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:30:08.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "PP.API\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "PP.API\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T00:12:07.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Program.cs",
+              "RelativeDocumentMoniker": "PP.API\\Program.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Program.cs",
+              "RelativeToolTip": "PP.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:54:20.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T06:05:06.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "PP.API\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "PP.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAwF4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T21:58:42.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "PP.API\\Repositories\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "PP.API\\Repositories\\Implements\\CategoryRepository.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Implements\\CategoryRepository.cs",
+              "RelativeToolTip": "PP.API\\Repositories\\Implements\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:20:59.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T06:04:43.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Program.cs",
-              "RelativeDocumentMoniker": "PP.API\\Program.cs",
-              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Program.cs",
-              "RelativeToolTip": "PP.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PP.API\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "PP.API\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T03:54:20.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T23:45:04.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Workspacebackend\\PrjPilotBackEnd\\PrjPilot\\PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "PP.API\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T06:05:04.375Z"
             }
           ]
         }

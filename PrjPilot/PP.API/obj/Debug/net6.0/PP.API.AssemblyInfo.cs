@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PP.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25f9a5ce791b6e2a61ae7d80a92c627983fedcc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7e290df0d2154f97710a514e1065ea207e49cd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PP.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PP.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
