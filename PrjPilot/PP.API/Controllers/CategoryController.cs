@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using PP.API.DataContexts;
 using PP.API.DTOs;
 using PP.API.Models;
+using PP.API.Repositories.Implements;
 using PP.API.Repositories.Interfaces;
 
 namespace PP.API.Controllers
@@ -11,21 +12,24 @@ namespace PP.API.Controllers
 	[Route("[controller]")]
 	public class CategoryController : ControllerBase
 	{
-		private readonly ICategoryRepository _categoryRepository;
+		private readonly IUnitOfWork _unitOfWork;
+		IRepository<Category> _categoryRepository;
 
-		public CategoryController(ICategoryRepository categoryRepository)
+		public CategoryController(IUnitOfWork unitOfWork)
 		{
-			_categoryRepository = categoryRepository;
+			_unitOfWork = unitOfWork;
+			_categoryRepository = new CategoryRepository(_unitOfWork);
 		}
 
 		[HttpGet]
+		[ProducesResponseType(StatusCodes.Status200OK)]
 		[Route("categories")]
-		public async Task<IActionResult> GetAllProducts()
+		public async Task<ActionResult<IEnumerable<CategoryDto>>> GetAllCategories()
 		{
 			try
 			{
-				var all = await _categoryRepository.GetAllCategories();
-				if (all.Count() <= 0)
+				var all = await _categoryRepository.Get();
+				if (all == null)
 				{
 					return NotFound();
 				}
@@ -40,12 +44,15 @@ namespace PP.API.Controllers
 		}
 
 		[HttpGet]
+		[ProducesResponseType(StatusCodes.Status200OK)]
+		[ProducesResponseType(StatusCodes.Status404NotFound)]
+		[ProducesResponseType(StatusCodes.Status400BadRequest)]
 		[Route("getby/{id}")]
 		public async Task<IActionResult> GetCategoryById(int id)
 		{
 			try
 			{
-				var result = await _categoryRepository.GetCategory(id);
+				var result = await _categoryRepository.GetById(id);
 
 				if (result == null)
 				{
@@ -63,19 +70,19 @@ namespace PP.API.Controllers
 
 		[HttpPost]
 		[Route("addcategory")]
-		public async Task<IActionResult> IncludeCategory([FromBody] CategoryDto categoryDto)
+		public async Task<ActionResult<Category>> IncludeCategory([FromBody] Category category)
 		{
 
 			try
 			{
-				if (categoryDto == null)
+				if (category == null)
 				{
 					return BadRequest();
 				}
 
-				var categoryCreated = await _categoryRepository.AddCategory(categoryDto);
+				var categoryCreated = await _categoryRepository.Create(category);
 
-				return CreatedAtAction(nameof(GetCategoryById), new { id = categoryCreated.Id }, categoryCreated);
+				return categoryCreated;
 			}
 			catch (Exception ex)
 			{
@@ -87,19 +94,19 @@ namespace PP.API.Controllers
 
 		[HttpPut]
 		[Route("edit/{id}")]
-		public async Task<ActionResult<Category>> UpdateCategory(int id, CategoryDto categoryDto)
+		public async Task<IActionResult> UpdateCategory(int id, Category category)
 		{
 			try
 			{
-				if (id != categoryDto.Id)
+				if (id != category.Id)
 					return BadRequest("Código de categorias, não são compatíveis!");
 
-				var categoryToUpdate = await _categoryRepository.GetCategory(id);
+				var categoryToUpdate = await _categoryRepository.GetById(id);
 
 				if (categoryToUpdate == null)
 					return NotFound($"Não foi possível localizar categoria de código = {id} em nossa base de dados.");
 
-				return await _categoryRepository.UpdateCategory(categoryDto);
+				return await _categoryRepository.Update(id,category);
 
 			}
 			catch (Exception ex)
@@ -113,13 +120,13 @@ namespace PP.API.Controllers
 		{
 			try
 			{
-				var categoryToDelete = await _categoryRepository.GetCategory(id);
+				var categoryToDelete = await _categoryRepository.GetById(id);
 				if (categoryToDelete == null)
 				{
 					return NotFound($"Categoria com Id = {id} não encontrado");
 				}
 
-				await _categoryRepository.DeleteCategory(id);
+				var objToDelet = await _categoryRepository.Delete(id);
 				return Ok("Categoria Excluído com Sucesso");
 			}
 			catch (Exception)

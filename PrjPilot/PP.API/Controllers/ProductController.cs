@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PP.API.DataContexts;
 using PP.API.DTOs;
 using PP.API.Models;
+using PP.API.Models.ModelBase;
+using PP.API.Repositories.Implements;
 using PP.API.Repositories.Interfaces;
 
 namespace PP.API.Controllers
@@ -12,24 +14,29 @@ namespace PP.API.Controllers
 	[Route("[controller]")]
 	public class ProductController : ControllerBase
 	{
-		private readonly IProductRepository _productRepository;
+		private readonly IUnitOfWork _unitOfWork;
+		IRepository<Product> _productRepository;
 
-		public ProductController(IProductRepository productRepository)
+		public ProductController(IUnitOfWork unitOfWork)
 		{
-			_productRepository = productRepository;
+			_unitOfWork = unitOfWork;
+			_productRepository = new ProductRepository(_unitOfWork);
 		}
 
 		[HttpGet]
+		[ProducesResponseType(StatusCodes.Status200OK)]
 		[Route("products")]
-		public async Task<IActionResult> GetAllProducts()
+		public async Task<ActionResult<IEnumerable<Result<Product>>>> GetAllProducts()
 		{
 			try
 			{
-				var all = await _productRepository.GetAllProducts();
-				if (all.Count() <= 0)
+
+				var all = await _productRepository.Get();
+				if (all == null)
 				{
 					return NotFound();
 				}
+
 				return Ok(all);
 			}
 			catch (Exception ex)
@@ -41,12 +48,15 @@ namespace PP.API.Controllers
 		}
 
 		[HttpGet]
+		[ProducesResponseType(StatusCodes.Status200OK)]
+		[ProducesResponseType(StatusCodes.Status400BadRequest)]
+		[ProducesResponseType(StatusCodes.Status404NotFound)]
 		[Route("getby/{id}")]
 		public async Task<IActionResult> GetProductById(int id)
 		{
 			try
 			{
-				var result = await _productRepository.GetProduct(id);
+				var result = await _productRepository.GetById(id);
 
 				if (result == null)
 				{
@@ -64,19 +74,28 @@ namespace PP.API.Controllers
 
 		[HttpPost]
 		[Route("addproduct")]
-		public async Task<IActionResult> IncludeProduct([FromBody] ProductDto productDto)
+		[ProducesResponseType(StatusCodes.Status200OK)]
+		[ProducesResponseType(StatusCodes.Status400BadRequest)]
+		[ProducesResponseType(StatusCodes.Status500InternalServerError)]
+		public async Task<ActionResult<Product>> IncludeProduct([FromBody] Product product)
 		{
 
 			try
 			{
-				if (productDto == null)
+
+				if (!ModelState.IsValid)
+				{
+					return BadRequest(ModelState);
+				}
+
+				if (product == null)
 				{
 					return BadRequest();
 				}
 
-				var productCreated = await _productRepository.AddProduct(productDto);
+				var productCreated = await _productRepository.Create(product);
 
-				return CreatedAtAction(nameof(GetProductById), new { id = productCreated.Id }, productCreated);
+				return productCreated;
 			}
 			catch (Exception ex)
 			{
@@ -88,19 +107,20 @@ namespace PP.API.Controllers
 
 		[HttpPut]
 		[Route("edit/{id}")]
-		public async Task<ActionResult<Product>> UpdateProduct(int id, ProductDto productDto)
+		public async Task<IActionResult> UpdateProduct(int id, Product product)
 		{
 			try
 			{
-				if (id != productDto.Id)
+				if (id != product.Id)
 					return BadRequest("Código de produtos, não são compatíveis!");
 
-				var productToUpdate = await _productRepository.GetProduct(id);
+				var productToUpdate = await _productRepository.GetById(id);
 
 				if (productToUpdate == null)
 					return NotFound($"Não foi possível localizar produto de código = {id} em nossa base de dados.");
 
-				return await _productRepository.UpdateProduct(productDto);
+				var objProduct = await _productRepository.Update(id, product);
+				return objProduct;
 
 			}
 			catch (Exception ex)
@@ -110,17 +130,20 @@ namespace PP.API.Controllers
 		}
 
 		[HttpDelete("{id:int}")]
+		[ProducesResponseType(StatusCodes.Status204NoContent)]
+		[ProducesResponseType(StatusCodes.Status404NotFound)]
+		[ProducesResponseType(StatusCodes.Status400BadRequest)]
 		public async Task<ActionResult<ProductDto>> DeleteProduct(int id)
 		{
 			try
 			{
-				var productToDelete = await _productRepository.GetProduct(id);
-				if(productToDelete == null)
+				var productToDelete = await _productRepository.GetById(id);
+				if (productToDelete == null)
 				{
 					return NotFound($"Produto com Id = {id} não encontrado");
 				}
 
-				await _productRepository.DeleteProduct(id);
+				var objToDelete = await _productRepository.Delete(id);
 				return Ok("Produto Excluído com Sucesso");
 			}
 			catch (Exception)

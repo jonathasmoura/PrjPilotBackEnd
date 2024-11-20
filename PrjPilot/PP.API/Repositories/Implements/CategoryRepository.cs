@@ -6,73 +6,35 @@ using PP.API.Repositories.Interfaces;
 
 namespace PP.API.Repositories.Implements
 {
-	public class CategoryRepository : ICategoryRepository
+	public class CategoryRepository : RepositoryBase<Category>, ICategoryRepository
 	{
-		private readonly PilotContext _pilotContext;
-
-		public CategoryRepository(PilotContext pilotContext)
+		public CategoryRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
 		{
-			_pilotContext = pilotContext;
 		}
 
-		public async Task<Category> AddCategory(CategoryDto categoryDto)
+		public Task<Category> AddCategory(CategoryDto category)
 		{
-			var obj = new Category
-			{
-				Id = categoryDto.Id,
-				Name = categoryDto.Name,
-				Description = categoryDto.Description
-			};
-			var result = await _pilotContext.Categories.AddAsync(obj);
-			await _pilotContext.SaveChangesAsync();
-
-			return result.Entity;
+			throw new NotImplementedException();
 		}
 
-
-		public async Task<IEnumerable<Category>> GetAllCategories()
+		public Task DeleteCategory(int categoryId)
 		{
-			var allCategories = await _pilotContext.Categories.ToListAsync();
-
-			return allCategories;
+			throw new NotImplementedException();
 		}
 
-		public async Task<Category> GetCategory(int categoryId)
+		public Task<IEnumerable<Category>> GetAllCategories()
 		{
-			return await _pilotContext.Categories
-				.FirstOrDefaultAsync(x => x.Id == categoryId);
+			throw new NotImplementedException();
 		}
 
-		public async Task<Category> UpdateCategory(CategoryDto categoryDto)
+		public Task<Category> GetCategory(int categoryId)
 		{
-
-			var categoryToEdit = await _pilotContext.Categories.FirstOrDefaultAsync(x => x.Id == categoryDto.Id);
-			if (categoryToEdit != null)
-			{
-
-
-				categoryToEdit.Name = categoryDto.Name;
-				categoryToEdit.Description = categoryDto.Description;
-			
-
-				_pilotContext.Entry(categoryToEdit).State = EntityState.Modified;
-				await _pilotContext.SaveChangesAsync();
-
-				return categoryToEdit;
-			}
-
-			return null;
-		}
-		public async Task DeleteCategory(int categoryId)
-		{
-			var result = await _pilotContext.Categories.FirstOrDefaultAsync(x => x.Id == categoryId);
-
-			if (result != null)
-			{
-				_pilotContext.Entry(result).State = EntityState.Deleted;
-				await _pilotContext.SaveChangesAsync();
-			}
+			throw new NotImplementedException();
 		}
 
+		public Task<Category> UpdateCategory(CategoryDto category)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
