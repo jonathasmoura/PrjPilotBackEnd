@@ -1,0 +1,16 @@
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\bin\Debug\net6.0\PP.Services.deps.json
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\bin\Debug\net6.0\PP.Services.dll
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\bin\Debug\net6.0\PP.Services.pdb
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\bin\Debug\net6.0\PP.Application.dll
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\bin\Debug\net6.0\PP.Application.pdb
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.csproj.AssemblyReference.cache
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.AssemblyInfoInputs.cache
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.AssemblyInfo.cs
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.csproj.CoreCompileInputs.cache
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.sourcelink.json
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Servi.E7798406.Up2Date
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.dll
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\refint\PP.Services.dll
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\PP.Services.pdb
+C:\Workspacebackend\PrjPilotBackEnd\PrjPilot\PP.Services\obj\Debug\net6.0\ref\PP.Services.dll
